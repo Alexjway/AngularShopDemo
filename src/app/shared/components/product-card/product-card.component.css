@@ -1,0 +1,20 @@
+.card-title {
+    padding: 15px 0 0 15px;
+}
+
+.card-text {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-footer {
+    padding: 0;
+}
+
+.card-footer button {
+    cursor: pointer;
+}

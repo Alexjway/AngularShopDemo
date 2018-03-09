@@ -1,0 +1,9 @@
+.card {
+    padding: 20px;
+    margin: 5px;
+}
+
+.card-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
