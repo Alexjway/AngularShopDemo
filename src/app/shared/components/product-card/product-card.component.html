@@ -2,7 +2,7 @@
   <img class="card-img-top" src="{{ product.imageUrl }}" alt="{{ product.title}}"  *ngIf="product.imageUrl">
   <div class="card-block">
     <h4 class="card-title">{{ product.title }}</h4>
-    <p class="card-text">{{ product.price | currency:'GBP':true }}</p>
+    <p class="card-text">{{ product.price | currency:'GBP': 'symbol' }}</p>
   </div>
   <div class="card-footer" *ngIf="showActions && shoppingCart">
     <button
